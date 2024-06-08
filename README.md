@@ -20,9 +20,9 @@ The code present in the Python notebook file analyzes the video and audio of the
 
 4. **Distance Calculation**:
    - Using the speed of sound (approximately 343 meters per second at sea level and at room temperature), the distance is calculated based on the time delay between seeing the cannon fire and hearing the sound. The formula used is:
-     \[
-     \text{Distance} = \text{Time delay} \times \text{Speed of sound}
-     \]
+     
+     $\text{Distance} = \text{Time delay} \times \text{Speed of sound}$
+   
 
 The notebook likely includes the necessary Python libraries for video and audio processing, as well as functions for frame extraction, audio signal analysis, and distance computation. The results are typically displayed in a clear and concise manner, often with visualizations to aid in understanding the process and outcomes.
 
