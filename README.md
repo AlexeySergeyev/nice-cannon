@@ -5,6 +5,8 @@ The Nice Midday Cannon, known locally as "le canon de midi," is a beloved tradit
 
 Originally, an actual cannon was used, positioned on the Castle Hill (Colline du Château). At 11:55 AM, Coventry would raise a time ball to signal the cannon's firing at noon. This practice became so popular that after a brief hiatus following Coventry's death, the city of Nice reinstated it in 1875 due to public demand. Today, the tradition continues with a firework known as an aerial maroon, which creates a loud but harmless explosion at noon every day. This event is managed by Philippe Arnello, who ensures the tradition remains a quirky yet integral part of Nice's daily life.
 
+![Strike](figs/output.png)
+
 The code present in the Python notebook file analyzes the video and audio of the striking cannon to compute the distance between the observer and the cannon. The process involves the following steps:
 
 1. **Video Processing**:
