@@ -1,6 +1,25 @@
-imageio==2.9.0
-moviepy==1.0.3
-numpy==1.21.0
-matplotlib==3.4.2
-librosa==0.8.1
-IPython==7.22.0
+# Lightning Distance Analysis: Nice Midday Cannon
+# Python package dependencies for scientific computing and multimedia processing
+
+# Core scientific computing and visualization
+numpy>=1.24.0          # Numerical computing and array operations
+matplotlib>=3.7.0      # Scientific plotting and visualization
+
+# Audio and video processing
+moviepy==1.0.3         # Video editing and audio extraction (specific version for compatibility)
+librosa>=0.10.0        # Audio analysis and digital signal processing
+imageio>=2.31.0        # Image and video I/O operations
+
+# Jupyter notebook environment
+jupyter>=1.0.0         # Jupyter notebook interface
+ipython>=8.0.0         # Interactive Python kernel for notebooks
+
+# Additional audio processing dependencies (automatically installed with librosa)
+# soundfile>=0.12.0    # Audio file I/O (installed as librosa dependency)
+# scipy>=1.10.0        # Scientific computing (installed as librosa dependency)
+
+# FFmpeg Python wrapper (for improved video processing)
+imageio-ffmpeg>=0.4.8  # FFmpeg plugin for imageio
+
+# Optional: Enhanced audio processing
+# pydub>=0.25.0        # Alternative audio processing library (uncomment if needed)
